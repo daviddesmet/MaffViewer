@@ -15,3 +15,6 @@ Plain easy: just drag-and-drop the maff file into the window.
 ## Special Thanks
 * TeamDev Ltd for the [DotNetBrowser](https://www.teamdev.com/dotnetbrowser) control.
 * ButchersBoy for the [Dragablz](https://dragablz.net/) control.
+
+## Disclaimer
+MaffViewer uses DotNetBrowser http://www.teamdev.com/dotnetbrowser, which is a proprietary software. The use of DotNetBrowser is governed by DotNetBrowser Product Licence Agreement http://www.teamdev.com/dotnetbrowser-licence-agreement. If you would like to use DotNetBrowser in your development, please contact TeamDev.
