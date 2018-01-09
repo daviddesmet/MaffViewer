@@ -1,11 +1,13 @@
 Product: DotNetBrowser
 Version: 1.x
 Licensed to: 
-License type: Evaluation
+License type: Development
 License info: Single-user license
-Expiration date: 14-12-2017
-Generation date: 14-11-2017
-Platforms: win32/x64;win32/x86
-Company name: NO COMPANY
-SigB: ab03cs9exet330fl7mxno6l5og04lvlch73xnaimkxyua5sgsuhoj4gmy2nr06oa5itugcxe3yuj883m
-SigA: fkm3otva8k2rhhe6xkpgt5rqwhyhu4gk7lety0cgchq5v3lj1c7sjfedryb19eic55v8pps9liqum7j
+Product binding: Bound to type name
+Product binding info: bdpwryyosh8m3qmhq9bor2h478pmz96af1bhh
+Expiration date: NEVER
+Generation date: 09-01-2018
+Platforms: win32/x86;win32/x64
+Company name: MaffViewer
+SigB: ai3mivmcrrkiwz9m5siuwetp1lag6p653c7w58m5173lvfgqrg2h5xnsrdnwbtfsw7oibcf1jsm4p9dp
+SigA: okirlh98jvcf1xv6r0q9wa7k7mdvafo77at1vnuvu4dzvhlreihlxrwbeioy2ixzyh335dyniv0gxipd

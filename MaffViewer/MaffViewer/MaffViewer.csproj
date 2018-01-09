@@ -72,15 +72,15 @@
     <Compile Include="ViewModels\Bindable.cs" />
     <Compile Include="Common\DropBehavior.cs" />
     <Compile Include="ViewModels\PageViewModel.cs" />
-    <Compile Include="Views\EmptyPage.xaml.cs">
-      <DependentUpon>EmptyPage.xaml</DependentUpon>
+    <Compile Include="Views\WebPage.xaml.cs">
+      <DependentUpon>WebPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="Common\NotifyPropertyChangedExtension.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Models\TabContent.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
-    <Page Include="Views\EmptyPage.xaml">
+    <Page Include="Views\WebPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

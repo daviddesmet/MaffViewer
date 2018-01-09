@@ -5,9 +5,9 @@
     /// <summary>
     /// Interaction logic for EmptyPage.xaml
     /// </summary>
-    public partial class EmptyPage : UserControl
+    public partial class WebPage : UserControl
     {
-        public EmptyPage()
+        public WebPage()
         {
             InitializeComponent();
         }

@@ -43,7 +43,7 @@
         {
             var result = new MainViewModel();
 
-            result.TabContents.Add(new TabContent("New Tab", new EmptyPage()));
+            result.TabContents.Add(new TabContent("New Tab", new WebPage()));
             return result;
         }
 
@@ -73,7 +73,7 @@
         /// Gets the new item factory.
         /// </summary>
         /// <value>The new item factory.</value>
-        public static Func<object> NewItemFactory => () => new TabContent("New Tab", new EmptyPage());
+        public static Func<object> NewItemFactory => () => new TabContent("New Tab", new WebPage());
 
         /// <summary>
         /// Gets the preview drop command.
@@ -115,7 +115,7 @@
                 var temp = Path.Combine(Path.GetTempPath(), archive.Entries[0].FullName);
                 archive.ExtractToDirectory(Path.GetTempPath(), ZipArchiveExtensions.OverwriteMethod.Always);
 
-                var tab = new TabContent(title, new EmptyPage() { DataContext = new PageViewModel() { OriginalUrl = url, ArchiveTime = archiveTime, UrlData = Path.Combine(temp, indexFileName) } });
+                var tab = new TabContent(title, new WebPage() { DataContext = new PageViewModel() { OriginalUrl = url, ArchiveTime = archiveTime, UrlData = Path.Combine(temp, indexFileName) } });
                 TabContents.Add(tab);
 
                 SelectedTab = tab;
